@@ -1,0 +1,1252 @@
+{
+  "@@locale": "ru",
+  "globalCurrency": "₽",
+  "numFormatted": "{value}",
+  "@numFormatted": {
+    "placeholders": {
+      "value": {
+        "type": "double",
+        "format": "decimalPattern"
+      }
+    }
+  },
+  "intCurrencyFormatted": "{value}",
+  "@intCurrencyFormatted": {
+    "placeholders": {
+      "value": {
+        "type": "int",
+        "format": "currency",
+        "optionalParameters": {
+          "decimalDigits": 0,
+          "symbol": "₽"
+        }
+      }
+    }
+  },
+  "imperativeDecimalCurrencyFormatted": "{value}",
+  "@imperativeDecimalCurrencyFormatted": {
+    "placeholders": {
+      "value": {
+        "type": "double",
+        "format": "currency",
+        "optionalParameters": {
+          "decimalDigits": 2,
+          "customPattern": "#0.00"
+        }
+      }
+    }
+  },
+  "currencyFormatted": "{value}",
+  "@currencyFormatted": {
+    "placeholders": {
+      "value": {
+        "type": "double",
+        "format": "currency",
+        "optionalParameters": {
+          "decimalDigits": 2,
+          "symbol": "₽"
+        }
+      }
+    }
+  },
+  "currencyFormattedWithoutDecimals": "{value}",
+  "@currencyFormattedWithoutDecimals": {
+    "placeholders": {
+      "value": {
+        "type": "double",
+        "format": "currency",
+        "optionalParameters": {
+          "decimalDigits": 0,
+          "symbol": "₽"
+        }
+      }
+    }
+  },
+  "currencyFormattedPure": "{value}",
+  "@currencyFormattedPure": {
+    "placeholders": {
+      "value": {
+        "type": "double",
+        "format": "currency",
+        "optionalParameters": {
+          "decimalDigits": 2,
+          "customPattern": "#0.00"
+        }
+      }
+    }
+  },
+  "dateFormat": "{date}",
+  "@dateFormat": {
+    "placeholders": {
+      "date": {
+        "type": "DateTime",
+        "format": "dd.MM.yyyy",
+        "isCustomDateFormat": "true",
+        "example": "11.10.2021"
+      }
+    }
+  },
+  "getVerificationNumber": "Получить код подтверждения",
+  "enter": "ВОЙТИ",
+  "readTheUserAgreement": "Ознакомиться с пользовательским соглашением можно тут",
+  "yourPhone": "Ваш телефон",
+  "pageSearchSalesOrgTitle": "Регион поиска: ",
+  "pageSearchHistoryTitle": "История поиска",
+  "search": "Поиск",
+  "filter": "Фильтр",
+  "pageSearchNewMaterialsTitle": "Новинки",
+  "pageSearchFavoritesNoData": "Пока нет товаров в избранном",
+  "pageSearchHistoryNoData": "История поиска отсутствует",
+  "pageSearchNewMaterialNoData": "Пока нет новинок",
+  "pageSearchCode": "Код: ",
+  "acceptAction": "Применить",
+  "pageMaterialCardNormPendingData": "Загрузка норм материала",
+  "pageMaterialCardCalcResult": "{price} x {unit} {unitSuffix} = ",
+  "@pageMaterialCardCalcResult": {
+    "description": "Показ вычисления значения выражения",
+    "placeholders": {
+      "price": {
+        "type": "double",
+        "format": "currency",
+        "optionalParameters": {
+          "decimalDigits": 2,
+          "symbol": "₽"
+        }
+      },
+      "unit": {
+        "type": "double",
+        "format": "decimalPattern"
+      },
+      "unitSuffix": {
+        "type": "String",
+        "format": "text"
+      }
+    }
+  },
+  "totalPriceLabel": "Итог: {price}",
+  "@totalPriceLabel": {
+    "placeholders": {
+      "price": {
+        "type": "double",
+        "format": "currency",
+        "optionalParameters": {
+          "decimalDigits": 2,
+          "symbol": "₽"
+        }
+      }
+    }
+  },
+  "pageMaterialCardTodayCount": "Сегодня: {count} {unitName}",
+  "@pageMaterialCardTodayCount": {
+    "placeholders": {
+      "count": {
+        "type": "double",
+        "format": "decimalPattern"
+      },
+      "unitName": {
+        "type": "String"
+      }
+    }
+  },
+  "quantityWithUnits": "{quantity} {units}",
+  "@quantityWithUnits": {
+    "placeholders": {
+      "quantity": {
+        "type": "double",
+        "format": "decimalPattern"
+      },
+      "units": {
+        "type": "String"
+      }
+    }
+  },
+  "pageMaterialCardGrossProfitTotalLabel": "Валовая прибыль итого: ",
+  "pageMaterialCardGrossProfitTotalLabelPostfix": " руб",
+  "pageMaterialCardUnitTileTitle": "{unitName} ({unitText})",
+  "@pageMaterialCardUnitTileTitle": {
+    "placeholders": {
+      "unitName": {
+        "type": "String",
+        "format": "text"
+      },
+      "unitText": {
+        "type": "String",
+        "format": "text"
+      }
+    }
+  },
+  "pageMaterialCardDiscountNotFound": "Скидок для данного товара нет",
+  "pageMaterialCardWantDiscount": "Хочу скидку",
+  "pageMaterialCardSaveAction": "Сохранить",
+  "pageMaterialCardErrorGetMaterial": "Ошибка получения информации по материалу",
+  "pageMaterialCardServiceTomorrowSubtitle": "Завтра: {count}",
+  "@pageMaterialCardServiceTomorrowSubtitle": {
+    "placeholders": {
+      "count": {
+        "type": "double",
+        "format": "decimalPattern"
+      }
+    }
+  },
+  "pageCartBottomCartInfo": "{quantityPrefix}   {count}",
+  "@pageCartBottomCartInfo": {
+    "placeholders": {
+      "quantityPrefix": {
+        "type": "String",
+        "format": "text"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "pageCartCompletedOrderLabel": "Заказ {partCartId}",
+  "@pageCartCompletedOrderLabel": {
+    "placeholders": {
+      "partCartId": {
+        "type": "String",
+        "format": "text"
+      }
+    }
+  },
+  "pageCartCompletedOfferLabel": "Предложение {partCartId}",
+  "@pageCartCompletedOfferLabel": {
+    "placeholders": {
+      "partCartId": {
+        "type": "String",
+        "format": "text"
+      }
+    }
+  },
+  "pageCartPrefixCard": "Товар",
+  "pageCartAGType": "предложение",
+  "pageCartTAType": "заказ",
+  "pageCartPartPaid": "Неполная оплата",
+  "pageCartFullPaid": "Оплачено",
+  "pageCartCancelPay": "Отменить оплату",
+  "pageCartRefundType": "автодовоз: возврат",
+  "pageCartUnknownType": "неизвестный тип заказа",
+  "pageCartNegativeGrossProfitMessage": "Для данного заказа отрицательная валовая прибыль",
+  "pageCartPrefixByType": "в {cartTypeTitle}",
+  "@pageCartPrefixByType": {
+    "placeholders": {
+      "cartTypeTitle": {
+        "type": "String",
+        "format": "text"
+      }
+    }
+  },
+  "settingAuto": "Устанавливается автоматически",
+  "pagePaymentAlreadyHas": "Оплата уже создана",
+  "pagePaymentSuccessCreate": "Информация об оплате успешно отправлена",
+  "prefixTotal": "Итого: ",
+  "prefixDiscount": "Скидка: ",
+  "byCard": "По карте",
+  "byCash": "Наличные",
+  "addressLabel": "Адрес",
+  "tipConstraints": "Укажите значения для оплаты по карте и/или наличными, сумма не должны превышать значения оплаты на месте",
+  "tipSubmit": "Нажмите ОК для применения оплаты к заказу",
+  "tipQrWarning": "При выборе «Оплата по QR/ссылке» другие способы оплаты ",
+  "tipQrPartNotAccepted": "не применяются",
+  "qrCaption": "Оплата по QR-коду: ",
+  "qrLinkCaption": "Оплата по QR/ссылке:",
+  "pagePaymentQrTipInputPhone": "Введите номер телефона, либо выберите контакт из Вашей адресной книги для этого нажмите на иконку в поле ввода. На данный номер Вам будет отправлен электронный чек",
+  "pagePaymentQrTipScanCode": "Отсканируйте QR-код в приложении банка, если оно поддерживает систему быстрых платежей. Оплата будет произведена мгновенно",
+  "pagePaymentQrTipSendCode": "Отправьте QR-код любым удобным для вас способом, нажав на изображение",
+  "linkCaption": "Оплата по ссылке: ",
+  "tipInputPhone": "Введите номер телефона, либо выберите контакт из Вашей адресной книги, для этого нажмите на иконку в поле ввода.",
+  "linkTipSend": "Нажмите ОК для того чтобы отправить ссылку на оплату для заданного номера телефона",
+  "linkTipLifetime": "После отправки ссылка будет действовать в течение 20 мин",
+  "favorites": "Избранное",
+  "viewAll": "просмотреть всё",
+  "relatedMaterialsBannerViewAll": "Cмотреть всё",
+  "favoritesNotFound": "В избранном пока ничего нет",
+  "dischardRegion": "Регион выписки: ",
+  "newInvoiceWithLineBreak": "Новое\nпредложение",
+  "newOrderWithLineBreak": "Новый\nзаказ",
+  "orderList": "Список\nзаказов",
+  "errorAllOcasions": "Упс, что-то пошло не так",
+  "placeOfIssue": "Место выдачи",
+  "placeOfDispatch": "Откуда везем",
+  "dateOfDelivery": "Дата поставки",
+  "dateOfDelivery2": "Дата доставки",
+  "closestDate": "Ближайшая дата",
+  "fio": "ФИО",
+  "phone": "Телефон",
+  "order": "Заказ",
+  "offer": "Счет",
+  "add": "Добавить",
+  "comment": "Комментарий",
+  "info": "Описание",
+  "competitors": "Конкуренты",
+  "price": "Стоимость",
+  "number": "Количество",
+  "neededNumber": "Требуемое количество",
+  "unit": "Ед.изм",
+  "relatedProducts": "Сопутствующие товары",
+  "relatedProductsWithLineBreak": "Сопутствующие\nтовары",
+  "tinting": "Колеровка",
+  "tintingService": "Услуга колеровки",
+  "simpleCutService": "Услуга простого распила",
+  "cutService": "Услуга распила",
+  "service": "Услуга",
+  "sawCut": "Точный распил",
+  "simpleCut": "Простой распил",
+  "description": "Описание",
+  "gtr": "Готовое решение",
+  "weWillDeliverTo": "Доставим ",
+  "norms": "Нормы",
+  "deficite": "Дефицит",
+  "qr": "QR",
+  "change": "Сменить в",
+  "newOffer": "Новое предложение",
+  "newOrder": "Новый заказ",
+  "shareAccount": "Поделиться \nсчетом",
+  "payment": "Оплата",
+  "delivery": "Доставка",
+  "shopper": "Покупатель",
+  "cut": "Распил",
+  "sum": "Сумма",
+  "volume": "Объем",
+  "weight": "Вес",
+  "placeOfFixingTheDeficit": "Место фиксация дефицита",
+  "toOrder": "В заказ",
+  "toOffer": "В предложение",
+  "toPay": "К оплате",
+  "promiseSalePerMonth": "Обещаю продать за месяц",
+  "confidence": "Уверенность",
+  "reportADeficit": "Cообщить о дефиците",
+  "normsSetFor": "Нормы устанавливаются для:",
+  "ok": "ок",
+  "cancel": "Отмена",
+  "cancelAction": "Отменить",
+  "norm": "Норма",
+  "remainder": "Остаток",
+  "multiplicity": "Кратность",
+  "colonWithSpace": " : ",
+  "loadingUnits": "Загрузка единиц измерения...",
+  "errorOccurred": "Произошла ошибка при {feature}",
+  "@errorOccurred": {
+    "placeholders": {
+      "feature": {
+        "type": "String",
+        "example": "единиц измерения"
+      }
+    }
+  },
+  "priceIsTheSame": "Цена совпадает",
+  "shelfIsEmpty": "Полка пустая",
+  "fixed": "зафиксировать",
+  "shutterHelperText": "Наведите камеру на ценник\n\nи нажмите на затвор",
+  "functionalityInDev": "Функционал в разработке",
+  "checkingPriceTags": "Проверка ценников",
+  "wantTransit": "Хочу транзит",
+  "loginAsGuest": "Войти как гость",
+  "fabAction": "Кнопка быстрого действия",
+  "voiceSearch": "Голосовой\nпоиск",
+  "scannerPriceTag": "Проверка\nценников",
+  "myFavorites": "Мое\nизбранное",
+  "services": "Сервисы",
+  "promoCodes": "Промокоды",
+  "validPromoCodes": "Действующие промокоды",
+  "play": "Играть",
+  "exploreAssortment": "Изучи ассортимент",
+  "businessCard": "Визитка",
+  "sendBusinessCardToClient": "Отправить свою визитку клиенту",
+  "inventory": "Инвентаризация",
+  "keepingBalancesUpToDate": "Поддержание остатков в актуальном состоянии",
+  "save": "Сохранить",
+  "grossProfit": "ВП:",
+  "grossProfitFull": "Валовая прибыль:",
+  "quantityOfPosition": "Кол-во позиций:",
+  "myTasks": "Мои задачи",
+  "help": "Помощь",
+  "feedback": "Обратная связь",
+  "storesOnTheMap": "Магазины на карте",
+  "myStore": "Мой магазин",
+  "myDay": "МОЙ ДЕНЬ",
+  "appSettings": "Настройки приложения",
+  "notification": "Уведомления",
+  "defect": "Брак",
+  "sale": "Распродажа",
+  "inn": "ИНН: ",
+  "debitorChoose": "Выбор покупателя",
+  "contractChoose": "Выбор договора",
+  "proxyChoose": "Выбор доверенности",
+  "pass": "ПРОПУСТИТЬ",
+  "errorTestServer": "Ошибка получения данных на сервере",
+  "loremSmall": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+  "loremMedium": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+  "loremBig": "Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non provident, similique sunt in culpa, qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio, cumque nihil impedit, quo minus id, quod maxime placeat, facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet, ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat",
+  "yes": "да",
+  "no": "нет",
+  "logoutDialogTitle": "Внимание",
+  "logoutDialogQuestion": "Вы действительно хотите сменить пользователя?",
+  "permissionDeniedForOperation": "Вы должны быть авторизованы для этой операции",
+  "priceTagCustomModeHint1": "Или воспользуйтесь ",
+  "priceTagCustomModeHint2": "ручным вводом",
+  "priceTagCustomModeEmptyCodeHint": "Наберите на клавиатуре код товара",
+  "noFoundCameras": "На устройстве не обнаружена камера",
+  "newCartDialogTitle": "Внимание",
+  "newCartDialogQuestion": "В корзине есть несохраненное предложение. Что делаем дальше?",
+  "newCartDialogActionToCart": "В корзину",
+  "retryRequest": "Повторить запрос",
+  "authError": "Ошибка авторизации",
+  "tabCartName": "Корзина",
+  "tabHomeName": "Главная",
+  "tabOrdersName": "Заказы",
+  "tabProfileName": "Профиль",
+  "tabSearchName": "Поиск",
+  "repeatExitMessage": "Для выхода из приложения нажмите еще раз системную кнопку выхода.",
+  "copyTextMaterialMessage": "Код товара скопирован",
+  "copyTextOrderMessage": "Код заказа скопирован",
+  "phoneNumberLabel": "Номер телефона",
+  "paymentTypePlace": "Оплата на месте",
+  "paymentTypeLink": "Оплата по ссылке",
+  "paymentTypeQr": "Оплата по QR-коду",
+  "paymentQrNote1": "введите номер телефона, либо выберите контакт из Вашей адресной книги для этого нажмите на иконку в поле ввода. На данный номер Вам будет отправлен электронный чек",
+  "paymentQrNote2": "отсканируйте QR-код в приложении банка, если оно поддерживает систему быстрых платежей. Оплата будет произведена мгновенно",
+  "paymentQrNote3": "отправьте QR-код любым удобным для вас способом, нажав на изображение",
+  "paymentShare": "Поделиться",
+  "paymentFromThisDevice": "Оплатить с этого устройства",
+  "paymentPhoneNumberIsWrong": "Номер телефона должен содержать 11 цифр",
+  "contactPickerPermissionDenied": "Разрешите доступ к списку контактов",
+  "contactPickerSearchHint": "Поиск...",
+  "contactPickerNotFound": "Ничего не найдено",
+  "normRoundUnit": "Кратность",
+  "orderErrorSearchMinFourSymbols": "Введите не менее 4 символов в строке поиска",
+  "orderErrorInNumber": "ошибка в номере заказа",
+  "orderSearchNotFound": "Ничего не найдено по запросу",
+  "shortCutButtonOff": "Кнопка быстрого действия выключена!",
+  "startDate": "Дата начала",
+  "endDate": "Дата окончания",
+  "nonexistent": "Отсутствует",
+  "elementsNotFound": "Элементы не найдены",
+  "issuedOn": "Выписана на",
+  "exportInDate": "Выдача с {time} {dateShipped}",
+  "@exportInDate": {
+    "placeholders": {
+      "dateShipped": {
+        "type": "DateTime",
+        "format": "dd.MM.yyyy",
+        "isCustomDateFormat": "true",
+        "example": "11.10.2021"
+      },
+      "time": {
+        "type": "String",
+        "example": "20:00"
+      }
+    }
+  },
+  "nameValue": "ФИО: {name}",
+  "@nameValue": {
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Александр"
+      }
+    }
+  },
+  "phoneValue": "Телефон: {phone}",
+  "@phoneValue": {
+    "placeholders": {
+      "phone": {
+        "type": "String",
+        "example": "+7 (999) 257-76-61"
+      }
+    }
+  },
+  "contractValue": "Договор: {contractCode}",
+  "@contractValue": {
+    "placeholders": {
+      "contractCode": {
+        "type": "String",
+        "example": "50000001"
+      }
+    }
+  },
+  "proxyValue": "Доверенность: {proxyCode}",
+  "@proxyValue": {
+    "placeholders": {
+      "proxyCode": {
+        "type": "String",
+        "example": "50000001"
+      }
+    }
+  },
+  "clear": "Очистить",
+  "shopPrice": "Цена директора",
+  "shopPriceEnd": "Актуальность цены директора до",
+  "currentPrice": "Текущая цена",
+  "priceSetFor": "Цена устанавливается для",
+  "shopPriceSaveSuccessfully": "Цена директора успешно сохранена",
+  "errorHandlerTitle": "Произошла ошибка",
+  "errorHandlerFeedbackButton": "Отзыв",
+  "invoiceWithoutDiscount": "Счет без скидки",
+  "invoiceWithDiscount": "Счет",
+  "needSaveOrderWarning": "Сохраните {orderType} для дальнейшей работы",
+  "@needSaveOrderWarning": {
+    "placeholders": {
+      "orderType": {
+        "type": "String",
+        "format": "text"
+      }
+    }
+  },
+  "marginWithPercent": "{value} %",
+  "@marginWithPercent": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "warning": "Внимание",
+  "margin": "Наценка",
+  "inCart": "В корзине",
+  "pageMaterialCardOrderResult": "Итог: ",
+  "positionQuantityAndCartWeight": "{quantity} позиций · {weight}",
+  "@positionQuantityAndCartWeight": {
+    "placeholders": {
+      "quantity": {
+        "type": "int",
+        "format": "decimalPattern",
+        "example": "123"
+      },
+      "weight": {
+        "type": "double",
+        "format": "currency",
+        "optionalParameters": {
+          "decimalDigits": 2,
+          "symbol": "кг"
+        }
+      }
+    }
+  },
+  "pageMaterialCardIdCode": "Код: {materialId}",
+  "@pageMaterialCardIdCode": {
+    "placeholders": {
+      "materialId": {
+        "type": "String",
+        "format": "text"
+      }
+    }
+  },
+  "pageMaterialCardGrossProfit": "ВП: {price}",
+  "@pageMaterialCardGrossProfit": {
+    "placeholders": {
+      "price": {
+        "type": "double",
+        "format": "currency",
+        "optionalParameters": {
+          "decimalDigits": 2,
+          "symbol": "₽"
+        }
+      }
+    }
+  },
+  "pageMaterialCardSaleButtonTitle": "<{value}%",
+  "@pageMaterialCardSaleButtonTitle": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "pageMaterialCardStopPrice": "Стоп: {price}",
+  "@pageMaterialCardStopPrice": {
+    "placeholders": {
+      "price": {
+        "type": "double",
+        "format": "currency",
+        "optionalParameters": {
+          "decimalDigits": 2,
+          "symbol": "₽"
+        }
+      }
+    }
+  },
+  "amountPayable": "Сумма к оплате:",
+  "dash": "—",
+  "pagePaymentSuccessSended": "Оплата успешно применена",
+  "pagePaymentSendFailed": "Оплата не применена, попробуйте еще раз",
+  "cartWeight": "{weight}",
+  "@cartWeight": {
+    "placeholders": {
+      "weight": {
+        "type": "double",
+        "format": "currency",
+        "optionalParameters": {
+          "decimalDigits": 2,
+          "symbol": "кг"
+        }
+      }
+    }
+  },
+  "networkConnectionIsDownWarning": "Отсутствует интернет соединение, проверьте, пожалуйста, настройки",
+  "cartVolume": "{volume}",
+  "@cartVolume": {
+    "placeholders": {
+      "volume": {
+        "type": "double",
+        "format": "currency",
+        "optionalParameters": {
+          "decimalDigits": 2,
+          "symbol": "м³"
+        }
+      }
+    }
+  },
+  "sendError": "Сообщить об ошибке",
+  "expectedSee": "Что я ожидал увидеть",
+  "actualdSee": "Что я увидел по факту",
+  "attachPhotoOrVideo": "Прикрепить фото или видео",
+  "reportSuccessfulySent": "Ваша информация об ошибке успешно отправлена",
+  "reportErrorSent": "Не удалось отправить информацию об ошибке",
+  "shortErrorMessage": "Краткое описание ошибки",
+  "photo": "Фото",
+  "video": "Видео",
+  "send": "Отправить",
+  "errorAttachPhotoOrVideo": "Произошла ошибка при прикреплении фото или видео.\nУбедитесь, что у фото разрешение не более {width}x{height}, а у видео время продолжительности составляет не более чем {duration} мин.",
+  "@errorAttachPhotoOrVideo": {
+    "placeholders": {
+      "width": {
+        "type": "int"
+      },
+      "height": {
+        "type": "int"
+      },
+      "duration": {
+        "type": "int"
+      }
+    }
+  },
+  "showErrors": "Просмотреть ошибки",
+  "replaceTokenWarning": "Сейчас произойдет подмена токена и обновление профиля",
+  "allTasksAreDone": "Все задачи выполнены",
+  "tasksForToday": "Задачи на сегодня: {tasksCount}",
+  "@tasksForToday": {
+    "placeholders": {
+      "tasksCount": {
+        "type": "int"
+      }
+    }
+  },
+  "lastAnswer": "Предыдущий ответ был: {lastAnswer}",
+  "@lastAnswer": {
+    "placeholders": {
+      "lastAnswer": {
+        "type": "String"
+      }
+    }
+  },
+  "lastAnswerDate": "Дата предыдущего ответа: {lastAnswerDate}",
+  "@lastAnswerDate": {
+    "placeholders": {
+      "lastAnswerDate": {
+        "type": "String"
+      }
+    }
+  },
+  "answer": "Ответ",
+  "answers": "ответа",
+  "loading": "загрузке",
+  "sending": "отправке",
+  "units": "единиц измерения",
+  "tasksList": "списка задач",
+  "analogList": "списка аналогов",
+  "errorAuthNotFound": "Пользователь с таким номером телефона не найден",
+  "errorAuthForbidden": "Пользователь заблокирован",
+  "errorAuthGeneral": "Произошла внутренняя ошибка сервера",
+  "errorAuthVerifyCode": "Неверный проверочный код",
+  "errorRepeatAuth": "Не удалось выполнить повторную авторизацию",
+  "verisionAplication": "СД Маркет: Бизнес v{version}",
+  "@verisionAplication": {
+    "placeholders": {
+      "version": {
+        "type": "String",
+        "format": "text"
+      }
+    }
+  },
+  "snackbarAdditionalMessage": "- {message}",
+  "@snackbarAdditionalMessage": {
+    "placeholders": {
+      "message": {
+        "type": "String",
+        "format": "text"
+      }
+    }
+  },
+  "autoSelect": "Автовыбор",
+  "dropDownList": "Выпадающий список",
+  "outstandingTasks": "Невыполненные задачи",
+  "noTasksInSelectedRange": "Задач в выбранном диапазоне нет",
+  "speechDialogMessage": "Скажите что-нибудь",
+  "speechDialogLanguage": "Русский (Россия)",
+  "titleTaskNotification": "Новые Задачи",
+  "descriptionTaskNotification": "Есть новые невыполненые задачи",
+  "warningTaskNotification": "Для дальнейшей работы необходимо закрыть невыполненные задачи!",
+  "newDelivery": "Новая доставка",
+  "addPositionsFromOrder": "Добавьте позиции из заказа",
+  "allPositionsInOrder": "Все позиции в доставке",
+  "timeoutExceptionRequest": "Ошибка времени выполнения запроса",
+  "tooltipWeightVolumeTransport": "Вес: {currentWeight}/{maxWeight} кг. Объем: {currentVolume}/{maxVolume} м³",
+  "@tooltipWeightVolumeTransport": {
+    "placeholders": {
+      "currentWeight": {
+        "type": "double",
+        "format": "currency",
+        "optionalParameters": {
+          "decimalDigits": 2,
+          "customPattern": "#0.00"
+        }
+      },
+      "maxWeight": {
+        "type": "double",
+        "format": "currency",
+        "optionalParameters": {
+          "decimalDigits": 2,
+          "customPattern": "#0.00"
+        }
+      },
+      "currentVolume": {
+        "type": "double",
+        "format": "currency",
+        "optionalParameters": {
+          "decimalDigits": 2,
+          "customPattern": "#0.00"
+        }
+      },
+      "maxVolume": {
+        "type": "double",
+        "format": "currency",
+        "optionalParameters": {
+          "decimalDigits": 2,
+          "customPattern": "#0.00"
+        }
+      }
+    }
+  },
+  "errorGetTransportsDelivery": "Не удалось получить информацию о категориях транспорта",
+  "countWithUnits": "{count} {unitName}",
+  "@countWithUnits": {
+    "placeholders": {
+      "count": {
+        "type": "double",
+        "format": "decimalPattern"
+      },
+      "unitName": {
+        "type": "String"
+      }
+    }
+  },
+  "orderIdValue": "Заказ: {orderId}",
+  "@orderIdValue": {
+    "placeholders": {
+      "orderId": {
+        "type": "String",
+        "format": "text"
+      }
+    }
+  },
+  "inDelivery": "В доставку",
+  "fromDelivery": "Из доставки",
+  "addToDelivery": "Добавить в доставку",
+  "removeFromDelivery": "Убрать из доставки",
+  "color": "Колер:",
+  "cost": "Стоимость:",
+  "numberOfParts": "Количество деталей: {detailsCount}",
+  "@numberOfParts": {
+    "placeholders": {
+      "detailsCount": {
+        "type": "int"
+      }
+    }
+  },
+  "priceLabel": "Цена",
+  "numberOfWeight": "Заполненность по весу: {detailsCount}%",
+  "@numberOfWeight": {
+    "placeholders": {
+      "detailsCount": {
+        "type": "int"
+      }
+    }
+  },
+  "numberOfVolume": "Заполненность по объему: {detailsCount}%",
+  "@numberOfVolume": {
+    "placeholders": {
+      "detailsCount": {
+        "type": "int"
+      }
+    }
+  },
+  "deliveryFree": "Вы действительно хотите оформить бесплатную доставку?",
+  "successSaveDelivery": "Детали заказа изменены",
+  "errorSaveDelivery": "Поле \"Цена\" является обязательным",
+  "invalidPriceDelivery": "Неверный формат цены",
+  "preorderService": "Услуга «Заберите завтра»",
+  "gtrDateOfDelivery": "Дата поставки",
+  "consignment": "Минимальная партия",
+  "orderInfo": "Информация \n о заказе",
+  "orderInfoOneLine": "Информация о заказе",
+  "clientInfo": "Информация о клиенте",
+  "name": "Имя",
+  "serviceDeletingWarning": "У некоторых позиций есть примененные услуги, которые будут удалены при сохранении. Продолжить?",
+  "errorPositionCartTitle": "Ошибка сохранения позиции!",
+  "applyPromocode": "Применить промокод",
+  "applyCertificate": "Применить сертификат",
+  "sharePromocode": "Поделиться промокодом",
+  "enterPromocode": "Введите промокод",
+  "enterCertificate": "Введите сертификат",
+  "failedActivePromoMessage": "Не удалось применить промокод",
+  "failedActiveCertificateMessage": "Не удалось применить сертификат",
+  "promoQuantityText": " x {unit} {unitSuffix} = ",
+  "@promoQuantityText": {
+    "placeholders": {
+      "unit": {
+        "type": "double",
+        "format": "decimalPattern"
+      },
+      "unitSuffix": {
+        "type": "String",
+        "format": "text"
+      }
+    }
+  },
+  "updatedPromoPositionsMessage": "Была обновлена позиция в корзине\nСкидка в корзине распределена",
+  "analogs": "Аналоги",
+  "deficitSended": "Сообщение о дефиците отправлено",
+  "availableCountWithValue": "Доступное кол-во: {count}",
+  "@availableCountWithValue": {
+    "placeholders": {
+      "count": {
+        "type": "String",
+        "example": "Доступное кол-во"
+      }
+    }
+  },
+  "multiplicityWithValue": "Кратность: {count}",
+  "@multiplicityWithValue": {
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "единиц измерения"
+      }
+    }
+  },
+  "count": "Количество",
+  "kindOfTransport": "Вид транспорта",
+  "deliveryDate": "Дата поставки",
+  "transitSuccessSave": "Транзит успешно создан",
+  "transitInvalid": "Поля \"{fio}\" и \"{phoneNumberLabel}\" обязательны для заполнения!",
+  "@transitInvalid": {
+    "placeholders": {
+      "fio": {
+        "type": "String",
+        "format": "text"
+      },
+      "phoneNumberLabel": {
+        "type": "String",
+        "format": "text"
+      }
+    }
+  },
+  "gtrErrorPhoneNumber": "Введите контактный номер клиента",
+  "gtrErrorAddress": "Выберите адрес доставки",
+  "gtrErrorTransport": "Выберите вид транспорта",
+  "gtrSuccessfulRun": "ГТР успешно запущен.",
+  "gtrRun": "ЗАПУСТИТЬ",
+  "gtrRunCartEraseWarning": "Для запуска ГТР корзина должна быть пуста. Вы хотите очистить текущую корзину?",
+  "gtrWarningClear": "Очистить",
+  "gtrWarningReturn": "Очистить",
+  "gtrGeneralErrorMessage": "При обработке данных для ГТР произошла ошибка",
+  "gtrWarningPlate": "Для ГТР корзина должна быть пустой. Перед запуском создайте новое предложение/заказ.",
+  "deliverOrderSaveError": "Сохраните заказ для дальнейшей работы",
+  "deliverBackButtonAlert": "При закрытии будут потеряны все изменения",
+  "deliveryCountError": "Введено некорректное количество",
+  "deliveryOrderInDeliveryError": "Заказ уже в доставке",
+  "deliveryAddOrder": "+ Добавить заказ",
+  "deliveryRemove": "Удалить доставку?",
+  "deliveryRemoveOk": "Удалить",
+  "deliveryRemoveCancel": "Отмена",
+  "deliveryNumber": "Доставка: ",
+  "intervalPickerNoIntervals": "Для текущей даты нет доступных интервалов",
+  "deliveryNoAdress": "Выбрать интервал доставки можно только после выбора адреса доставки",
+  "prohibitionPaymentsOnProposalMessage": "Оплата предложения невозможна.\nПереведите предложение в заказ.",
+  "addToCart": "добавить в корзину",
+  "moreDetails": "подробнее",
+  "promoCannotApplyForSuggestion": "Промокод нельзя применить к предложению",
+  "certCannotApplyForSuggestion": "Сертификат нельзя применить к предложению",
+  "materialCodeWithSharp": "# {materialCode}",
+  "@materialCodeWithSharp": {
+    "placeholders": {
+      "materialCode": {
+        "type": "String",
+        "format": "text"
+      }
+    }
+  },
+  "material": "Материал",
+  "hasBeenAddedToCart": "добавлен в корзину",
+  "materialHasBeenAdded": "Материал {materialName} добавлен в корзину",
+  "@materialHasBeenAdded": {
+    "placeholders": {
+      "materialName": {
+        "type": "String"
+      }
+    }
+  },
+  "deliveryNoAddress": "Необходимо добавить адрес доставки",
+  "deliveryNoInterval": "Необходимо выбрать интервал доставки",
+  "deliveryNoPhone": "Необходимо указать номер телефона клиента",
+  "deliveryCountUnits": "/ {count} {unitName}",
+  "@deliveryCountUnits": {
+    "placeholders": {
+      "count": {
+        "type": "double",
+        "format": "decimalPattern"
+      },
+      "unitName": {
+        "type": "String",
+        "format": "text"
+      }
+    }
+  },
+  "deliveryUnloadAddUnload": "+ Добавить разгрузку",
+  "unloading": "Разгрузка",
+  "unloadingToDoor": "До двери",
+  "unloadingArroundCar": "У машины",
+  "unloadingCarry": "Пронос",
+  "unloadingCarryDistance": "до {distance}м.",
+  "@unloadingCarryDistance": {
+    "placeholders": {
+      "distance": {
+        "type": "double",
+        "format": "decimalPattern"
+      }
+    }
+  },
+  "unloadingStair": "Этаж",
+  "unloadingElevator": "Лифт",
+  "unloadingNoElevator": "Без лифта",
+  "unloadingOnElevator": "На лифте",
+  "unloadingUnderCar": "Выгрузка",
+  "unloadingAllPositionOnElevator": "Все позиции на лифте",
+  "unloadingAllPositionOnStairs": "Все позиции по лестнице",
+  "unloadingToElevator": "На лифте",
+  "unloadingFromElevator": "Без лифта",
+  "unloadingCarryToTheDoor": "Пронос до двери",
+  "unloadingFromCar": "Выгрузка из машины",
+  "unloadingCarryDistanceFormat": "{distance}м.",
+  "@unloadingCarryDistanceFormat": {
+    "placeholders": {
+      "distance": {
+        "type": "double",
+        "format": "decimalPattern"
+      }
+    }
+  },
+  "unloadingCarryFloorFormat": "{floor} этаж.",
+  "@unloadingCarryFloorFormat": {
+    "placeholders": {
+      "floor": {
+        "type": "String",
+        "format": "text"
+      }
+    }
+  },
+  "totalPriceDeliveryLabel": "Итог: {delivery} + {unloading} = {total}",
+  "@totalPriceDeliveryLabel": {
+    "placeholders": {
+      "delivery": {
+        "type": "double",
+        "format": "decimalPattern",
+        "optionalParameters": {
+          "decimalDigits": 0
+        }
+      },
+      "unloading": {
+        "type": "double",
+        "format": "decimalPattern",
+        "optionalParameters": {
+          "decimalDigits": 0
+        }
+      },
+      "total": {
+        "type": "double",
+        "format": "currency",
+        "optionalParameters": {
+          "decimalDigits": 0,
+          "symbol": "₽"
+        }
+      }
+    }
+  },
+  "unloadingLeaveAtDoor": "Оставить у двери",
+  "transportSelectedType": "Выбранный тип: {transportText}",
+  "@transportSelectedType": {
+    "transportText": {
+      "delivery": {
+        "type": "String",
+        "format": "text"
+      }
+    }
+  },
+  "set": "Комплект",
+  "costCertNominalWithoutRemains": "Остаток: {fullNominal}",
+  "@costCertNominalWithoutRemains": {
+    "placeholders": {
+      "fullNominal": {
+        "type": "double",
+        "format": "currency",
+        "optionalParameters": {
+          "decimalDigits": 2,
+          "symbol": "₽"
+        }
+      }
+    }
+  },
+  "costCertNominalWithRemains": "Остаток: {remains} / {fullNominal}",
+  "@costCertNominalWithRemains": {
+    "placeholders": {
+      "remains": {
+        "type": "double",
+        "format": "decimalPattern"
+      },
+      "fullNominal": {
+        "type": "double",
+        "format": "currency",
+        "optionalParameters": {
+          "decimalDigits": 0,
+          "symbol": "₽"
+        }
+      }
+    }
+  },
+  "orderCount": "Всего заказов: {orderCount}",
+  "@orderCount": {
+    "placeholders": {
+      "orderCount": {
+        "type": "int"
+      }
+    }
+  },
+  "orderSum": "Сумма заказов:",
+  "priceWithPrefix": "{prefix} {totalPrice}",
+  "@priceWithPrefix": {
+    "placeholders": {
+      "prefix": {
+        "type": "String"
+      },
+      "totalPrice": {
+        "type": "double",
+        "format": "currency",
+        "optionalParameters": {
+          "decimalDigits": 2,
+          "symbol": "₽"
+        }
+      }
+    }
+  },
+  "partDebiting": "Частичное списание",
+  "fullDebiting": "Полное списание",
+  "debiting": "Списать",
+  "enterNominal": "Введите сумму списания",
+  "enteredNominalError": "Введена неверная сумма сертификата",
+  "enteredNominalErrorLimit": "Введеная сумма превышает номинал сертификата",
+  "enteredNominalErrorLimitOrder": "Введеная сумма превышает стоимость заказа",
+  "intervalsNoStores": "Нельзя выбирать интервал доставки без позиций в доставке",
+  "ordersStatsCopyToClipboard": "Дата: {date} \nВсего заказов: {orderCounts} \nВаловая прибыль: {totalGrossProfit} рублей \nСумма заказов: {totalSumm} рублей",
+  "@ordersStatsCopyToClipboard": {
+    "placeholders": {
+      "date": {
+        "type": "String",
+        "format": "text"
+      },
+      "orderCounts": {
+        "type": "String"
+      },
+      "totalGrossProfit": {
+        "type": "double",
+        "format": "decimalPattern",
+        "optionalParameters": {
+          "decimalDigits": 2
+        }
+      },
+      "totalSumm": {
+        "type": "double",
+        "format": "decimalPattern",
+        "optionalParameters": {
+          "decimalDigits": 2
+        }
+      }
+    }
+  },
+  "ordersStatsSuccessCopiedToClipboard": "Данные успешно скопированы в буфер обмена.",
+  "personalAccount": "Мой кабинет",
+  "categories": "Категории",
+  "statisticsFor": "{prefix} {totalPrice}",
+  "@statisticsFor": {
+    "placeholders": {
+      "prefix": {
+        "type": "String"
+      },
+      "totalPrice": {
+        "type": "double",
+        "format": "currency",
+        "optionalParameters": {
+          "decimalDigits": 2,
+          "symbol": "₽"
+        }
+      }
+    }
+  },
+  "statisticsForPeriod": "{type} за {periodName}",
+  "@statisticsForPeriod": {
+    "placeholders": {
+      "type": {
+        "type": "String",
+        "format": "text"
+      },
+      "periodName": {
+        "type": "String",
+        "format": "text"
+      }
+    }
+  },
+  "revenue": "Выручка",
+  "grossProfitShort": "Валовка",
+  "markup": "Наценка",
+  "categoriesDetalizationNoData": "Данные по детализации категорий отсутствуют",
+  "statisticsNoData": "Данные по статистике отсутствуют",
+  "percentages": "{value} %",
+  "@percentages": {
+    "placeholders": {
+      "value": {
+        "type": "double",
+        "format": "decimalPattern",
+        "optionalParameters": {
+          "decimalDigits": 2
+        }
+      }
+    }
+  },
+  "enteredNominalErrorFree": "Введеная сумма превышает остаток сертификата",
+  "preventSaveError": "Изменение позиции запрещено",
+  "tintingChooseColor": "Выберите краску для продолжения",
+  "tintingBaseLabel": "База",
+  "tintingUnknownBase": "неизвестная база",
+  "tintingNeedBase": "необходима база",
+  "tintingVolume": "Литры",
+  "tintingCount": "Кол-во",
+  "tintingTotal": "Итого",
+  "tintingCalcWarning": "Невозможно рассчитать стоимость краски",
+  "tintingInputHint": "Введите наименование краски",
+  "tintingCostPerLiter": "Стоимость за литр",
+  "developmentEnv": "Среда разработки",
+  "giftLabel": "Подарок",
+  "anotherPosition": "И одновременной покупке",
+  "activityAmountDependsTitlte": "При покупке {count} {unitName}",
+  "@activityAmountDependsTitlte": {
+    "placeholders": {
+      "unitName": {
+        "type": "String",
+        "format": "text"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "activityTitlte": "При покупке",
+  "giftQuantityError": "Для подарочной позиции можно задать количество не больше чем {count}",
+  "@giftQuantityError": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "share": "Поделиться",
+  "@share": {
+    "type": "text",
+    "description": "Используется в случае если не уточняется чем."
+  },
+  "shareContact": "Отправить контакт",
+  "shareContactDescription": "Отправить файл-контакт\nдля сохранения в телефонной книге",
+  "shareBusinessCard": "Поделиться визиткой",
+  "shareBusinessCardDescription": "Отправить сообщения в мессенджере:\nинформацию о себе и фотографию профиля",
+  "errorLoadBusinessCard": "загрузке визитки",
+  "repeatLoad": "Повторить",
+  "phoneField": "Телефон",
+  "emailField": "Email",
+  "addressFiled": "Адрес",
+  "linkFiled": "Ссылка",
+  "novelty": "Новинка",
+  "sellout": "Распродажа",
+  "selloutEmpty": "В данном магазине\nнет материалов на распродаже",
+  "defectEmpty": "В данном магазине,\nнет материалов с браком",
+  "orderListRangeWarning": "Можно выбрать период до {value} дней ",
+  "@orderListRangeWarning": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "errorLoadListOfMaterials": "при загрузке списка материалов",
+  "loadingStatistics": "загрузке статистики",
+  "simpleCutSize": "Ширина: {height}  Длинна: {width}",
+  "@simpleCutSize": {
+    "placeholders": {
+      "height": {
+        "type": "double",
+        "format": "decimalPattern",
+        "optionalParameters": {
+          "decimalDigits": 0
+        }
+      },
+      "width": {
+        "type": "double",
+        "format": "decimalPattern",
+        "optionalParameters": {
+          "decimalDigits": 0
+        }
+      }
+    }
+  },
+  "cutEqualParts": "На равные части",
+  "deliveryCommentPriceCantBeLessThenZero": "Цена доставки не может быть меньше 0",
+  "simpleCutPresetText": "{value}x",
+  "@simpleCutPresetText": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "cutScheme": "Схема распила",
+  "cutSimpleAddCut": "Добавить пил",
+  "cuts": "Распилы",
+  "cutsLastLenght": "Остаток: ",
+  "simpleCutDetail": "Деталь {value}",
+  "@simpleCutDetail": {
+    "placeholders": {
+      "value": {
+        "type": "int"
+      }
+    }
+  },
+  "cutSimpleSave": "Сохранить пил",
+  "availableNewUpdate": "Доступно новое обновление ({version})",
+  "@availableNewUpdate": {
+    "placeholders": {
+        "version": {
+          "type": "string"
+        }
+    }
+  },
+  "lastUpdateChangelog": "Новое в версии:",
+  "lastUpdateNotice": "Установить, чтобы получить последние обновления и исправления ошибок"
+}
