@@ -1,6 +1,7 @@
 name: polyglot_cli
 description: Generate l10n delegate from partition files.
 version: 0.5.0
+repository: https://github.com/karbunkul/polyglot_cli
 
 environment:
   sdk: '>=3.0.0 <4.0.0'

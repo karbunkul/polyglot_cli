@@ -17,3 +17,11 @@ From pub.dev
 ```sh
 dart pub global activate polyglot_cli
 ```
+
+## Commands
+
+- gen - Generate localizations delegate
+- import - Import parts from arb files
+- init - Init new project
+- join - Join parts to arb files
+- migrate - Migrate from arb format to yaml
