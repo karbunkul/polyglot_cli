@@ -5,3 +5,16 @@
 
 l10n_delegate.dart
 
+# FVM
+.fvm
+.fvmrc
+
+# VS Code
+.vscode
+
+# Spider Resources
+test/resources/*.dart
+
+# Tests mock folder
+test/mock/**/*
+!test/mock/.gitkeep
