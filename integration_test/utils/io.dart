@@ -23,9 +23,13 @@ Future<ProcessResult> runInMock({
 
 /// Creates a temporary folder where tests will be run.
 Directory createTempDirectory() {
-  final mockDir = Directory(mockFolder).createTempSync(_mockPrefix);
+  final mockDir = Directory(integrationMockFolder).createTempSync(_mockPrefix);
   return mockDir;
 }
 
 /// Returns relative path for [mockFolder] and temporary folder.
 String relativePathForMock(String path) => '../../../$path';
+
+const String configurationFileName = 'polyglot.yaml';
+const String delegateFileName = 'l10n_delegate.dart';
+const String delegateClassName = 'AppLocales';

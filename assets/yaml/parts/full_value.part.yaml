@@ -1,0 +1,8 @@
+name: fullValue
+value: Full {value}
+placeholders: 
+  value: 
+    type: 'String'
+
+translates:
+  ru: Полностью {value}

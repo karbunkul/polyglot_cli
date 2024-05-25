@@ -13,8 +13,8 @@ l10n_delegate.dart
 .vscode
 
 # Spider Resources
-test/resources/*.dart
+integration_test/resources/*.dart
 
 # Tests mock folder
-test/mock/**/*
-!test/mock/.gitkeep
+integration_test/mock/**/*
+!integration_test/mock/.gitkeep
