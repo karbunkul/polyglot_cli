@@ -59,7 +59,7 @@ void main([List<String>? args]) {
       expect(exec.exitCode, isNot(0));
     });
 
-    test('Sinle placeholder `String`', () async {
+    test('Single placeholder `String`', () async {
       await runInMock(
         workingDirectory: workingDirectory.path,
         additionalArgs: [
