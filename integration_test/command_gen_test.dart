@@ -141,7 +141,7 @@ void main([List<String>? args]) {
     });
 
     tearDown(() {
-      // workingDirectory.deleteSync(recursive: true);
+      workingDirectory.deleteSync(recursive: true);
     });
   });
 }
