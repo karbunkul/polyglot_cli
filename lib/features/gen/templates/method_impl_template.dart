@@ -1,9 +1,11 @@
 import 'package:mustache_template/mustache.dart';
 import 'package:polyglot_cli/arb_part_dto.dart';
 
-String methodImplRender(ArbPartDto part) {
+String methodImplRender(ArbPartDto part, {String? locale}) {
   final template = Template(_placeHoldersTemplate, htmlEscapeValues: false);
-  String result = part.value;
+  String result = locale != null && part.translates?.containsKey(locale) == true
+      ? part.translates![locale]!
+      : part.value;
   final List<Map<String, String>> items = [];
 
   for (final placeholder in part.placeholders) {

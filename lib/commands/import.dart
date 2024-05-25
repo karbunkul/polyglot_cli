@@ -109,7 +109,7 @@ class ImportCommand extends Command with BaseCommand {
         '${_toLowerUnderscore(part.name)}.part.yaml',
       );
       final partFile = File(path);
-      final writer = YAMLWriter();
+      final writer = YamlWriter();
 
       final yamlPart = writer.convert(part.toJson());
 
