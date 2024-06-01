@@ -1,0 +1,11 @@
+{
+    "@@locale": "en",
+    "units": "{units}",
+    "@units": {
+        "placeholders": {
+            "units": {
+                "type": "String"
+            }
+        }
+    }
+}

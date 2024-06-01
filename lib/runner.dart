@@ -45,8 +45,8 @@ class PolyglotRunner extends CommandRunner {
       Logger.root.level = Level.ALL;
       Logger.root.onRecord.listen((record) {
         final level = record.level.name;
-        final time = record.time.toString().substring(0, 19);
-        print('$level: $time: ${record.message}');
+        // final time = record.time.toString().substring(0, 19);
+        print('$level: ${record.message}');
       });
     }
 

@@ -101,7 +101,7 @@ String _node({
       final id = context.renderString();
       final part = node.items.firstWhere((e) => e.name == id);
 
-      return methodImplRender(part);
+      return methodImplRender(part, locale: locale);
     },
     'escape': (LambdaContext context) {
       return context
@@ -144,8 +144,7 @@ const _template = '''
 {{# methods }}
   @override
   {{# methodRef }}{{ id }}{{/ methodRef }} {
-    {{# methodImpl }}{{ id }}{{/ methodImpl }}
-  }
+{{# methodImpl }}{{ id }}{{/ methodImpl }}  }
 {{/ methods }}
 {{/ ref }}
 ''';

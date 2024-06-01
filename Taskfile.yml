@@ -1,0 +1,13 @@
+# https://taskfile.dev
+
+version: '3'
+
+tasks:
+  cleanup:
+    dir: integration_test/mock/
+    desc: Remove mock_* directories in integration_test folder
+    cmds:
+      - cmd: 'cmd /c for /d /r %i in (mock_*) do @rmdir /s /q "%i"'
+        platforms: [windows]
+      - cmd: rm -r mock_*
+        platforms: [linux, darwin]

@@ -7,7 +7,9 @@ import 'package:polyglot_cli/cli_helper.dart';
 
 class MigrateCommand extends Command with BaseCommand {
   @override
-  String get description => 'Migrate from arb format to yaml';
+  String get description => 'Migrate from arb format to yaml. '
+      'All files for which directory defined in configuration `parts`, '
+      'will be convert from `.part.arb` to `.part.yaml`.';
 
   @override
   String get name => 'migrate';

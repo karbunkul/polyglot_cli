@@ -39,7 +39,7 @@ class InitCommand extends Command with BaseCommand {
     final configPath = CliHelper.configPath(projectDir);
     final configFile = File(configPath!);
     final config = Config().toJson();
-    final yamlWriter = YAMLWriter();
+    final yamlWriter = YamlWriter();
     configFile.writeAsStringSync(yamlWriter.write(config));
     logger.info('Save config \'polyglot.yaml\' into \'$projectDir\'');
   }

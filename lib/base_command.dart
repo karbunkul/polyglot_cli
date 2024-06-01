@@ -10,8 +10,9 @@ mixin BaseCommand on Command {
     if (!CliHelper.existConfig(projectDir)) {
       final message = 'Config file not found in \'$projectDir\', '
           'you can use arb-part init for init new project.';
-      logger.info(message);
-      exit(0);
+      logger.warning(message);
+      // https://gitlab.com/assimtech/sysexits/-/blob/main/lib/sysexits.dart?ref_type=heads
+      exit(72);
     }
     return CliHelper.loadConfig(projectDir);
   }
@@ -32,6 +33,14 @@ mixin BaseCommand on Command {
   Logger get logger => Logger(runtimeType.toString());
 
   List<File> findParts(Directory dir) {
+    if (!dir.existsSync()) {
+      final message = 'Dir \'parts\', not exists. '
+          'You can use \'polyglot init\' for init new project.';
+      logger.warning(message);
+      // https://gitlab.com/assimtech/sysexits/-/blob/main/lib/sysexits.dart?ref_type=heads
+      exit(72);
+    }
+
     return dir
         .listSync(recursive: true, followLinks: false)
         .where((e) {

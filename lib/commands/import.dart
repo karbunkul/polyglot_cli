@@ -56,9 +56,9 @@ class ImportCommand extends Command with BaseCommand {
           arbPartImport.add(jsonDecode(content));
           logger.info('Import from ${file.path}');
         } on ArbImportException catch (e) {
-          logger.severe('${e.message} in ${file.path}');
-        } catch (e) {
-          rethrow;
+          logger.warning('${e.message} in ${file.path}');
+          // https://gitlab.com/assimtech/sysexits/-/blob/main/lib/sysexits.dart?ref_type=heads
+          exit(78);
         }
       }
 
@@ -109,7 +109,7 @@ class ImportCommand extends Command with BaseCommand {
         '${_toLowerUnderscore(part.name)}.part.yaml',
       );
       final partFile = File(path);
-      final writer = YAMLWriter();
+      final writer = YamlWriter();
 
       final yamlPart = writer.convert(part.toJson());
 
