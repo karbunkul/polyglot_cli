@@ -94,7 +94,7 @@ class _Delegate extends LocalizationsDelegate<{{ className }}> {
   const _Delegate();
 
   @override
-  Future<{{ className }}> load(Locale locale) async {
+  Future<{{ className }}> load(Locale locale) {
     return SynchronousFuture<{{ className }}>(_lookupLocales(locale));
   }
   
